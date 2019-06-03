@@ -1,0 +1,132 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+
+body {background-color: #ddb;
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+header img {
+    width:100%; 
+    dispaly: block;
+}
+
+.home.main p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+nav {
+    overflow: hidden; 
+}
+
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: brown;
+    padding: 15px 30px;
+    font-size: 20px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav a:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+    nav a{
+        width: 50%;
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:500px){
+    nav a{
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    maring: 0 10%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid crimson;
+    
+}
+        
+a.menu {
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a.menu:hover {
+    background-color: chocolate;
+}
+.active{
+    background-color: chocolate;
+}
+
+
+article {
+    margin-top: 30px;
+    maring-bottom: 20px;
+    padding: 0 20px;
+}
+article h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid chocolate;
+}
+
+
+img.left {
+    float:left;
+    padding: 10px 10px 10px 0;
+    width:45%;
+    border-radius: 30% 10%;
+   
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+    
+}
+
+footer {
+    height: 40px;
+    background-color: saddlebrown;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    
+}
