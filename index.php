@@ -34,16 +34,16 @@ include "include/function.php";
             <header>
                 <img src="aukcja.jpg" alt="aukcja - header"/>
             <p align="right" >
-                <a href="rejstracja.html">Rejstracja</a>
-                <a href="logowanie.html">Logowanie</a>
-                <a href="log.html">Wyloguj</a>
+                <a href="rejstracja.php">Rejstracja</a>
+                <a href="logowanie.php">Logowanie</a>
+                <a href="log.php">Wyloguj</a>
                 </p>
             </header>
             <nav>
-                <a class="menu active" href="index.html">0 nas</a>
-                <a class="menu" href="Aukcje.html">Aukcje</a>
-                <a class="menu" href="okazja.html">Okazje</a>
-                <a class="menu" href="kontakt.html">Kontakt</a>
+                <a class="menu active" href="index.php">0 nas</a>
+                <a class="menu" href="Aukcje.php">Aukcje</a>
+                <a class="menu" href="okazja.php">Okazje</a>
+                <a class="menu" href="kontakt.php">Kontakt</a>
             
             </nav>
             

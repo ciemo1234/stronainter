@@ -24,18 +24,18 @@
             <header>
                 <img src="aukcja.jpg" alt="aukcja - header"/>
   <p align="right" >
-                <a href="rej.html">Rejstracja</a>
-                <a href="log.html">Logowanie</a>
-  <a href="log.html">Wyloguj</a>
+                <a href="rejestracja.php">Rejstracja</a>
+                <a href="log.php">Logowanie</a>
+  <a href="wyloguj.php">Wyloguj</a>
                 </p>
             </header>
             
             <nav>
-                <a class="menu" href="index.html">0 nas</a>
+                <a class="menu" href="index.php">0 nas</a>
                 <a class="menu active"
-                   href="Aukcje.html">Aukcje</a>
-                <a class="menu" href="okazja.html">Okazje</a>
-                <a class="menu" href="kontakt.html">Kontakt</a>
+                   href="Aukcje.php">Aukcje</a>
+                <a class="menu" href="okazja.php">Okazje</a>
+                <a class="menu" href="kontakt.php">Kontakt</a>
             </nav>
             
         <section class="main home">

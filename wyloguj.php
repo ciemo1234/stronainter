@@ -1,4 +1,8 @@
-<? session_start();
-session_destroy();
-echo 'Wylogowano';
+<?php
+    session_start();
+
+    session_unset();
+
+    header('Location: log.php');
+
 ?>

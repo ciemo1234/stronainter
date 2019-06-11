@@ -24,25 +24,25 @@
             <header>
                 <img src="aukcja.jpg" alt="aukcja - header"/>
                   <p align="right" >
-                <a href="rej.html">Rejstracja</a>
-                <a href="log.html">Logowanie</a>
-                <a href="log.html">Wyloguj</a>
+                <a href="rejestracja.php">Rejstracja</a>
+                <a href="log.php">Logowanie</a>
+                <a href="wyloguj.php">Wyloguj</a>
                 </p>
 
             </header>
             <p >
 			Logowanie  <strong></strong><br /><br />
-			<form action="zaloguj.php" method="post">
+			<form action="log.php" method="post">
 			Login: <br /> <input type="text" name="login" /> <br />
 			Hasło: <br /> <input type="password" name="haslo" /> <br /><br />
 			<input type="submit" value="Zaloguj się" />
 			</form>
 					</p>
             <nav>
-                <a class="menu" href="index.html">0 nas</a>
-                <a class="menu active" href="Aukcje.html">Aukcje</a>
-                <a class="menu" href="#">Okazje</a>
-                <a class="menu" href="Aukcje.html">Kontakt</a>
+                <a class="menu" href="index.php">0 nas</a>
+                <a class="menu active" href="Aukcje.php">Aukcje</a>
+                <a class="menu" href="okazja.php">Okazje</a>
+                <a class="menu" href="Aukcje.php">Kontakt</a>
             </nav>
             
        
